@@ -1,0 +1,192 @@
+.mid{
+    color: white;
+    text-align: center;
+    height: 30vh;
+    position: relative;
+    bottom: 500px;
+}
+
+.back{
+    background-image: url(./../image2/background.jpeg);
+    max-width: 100%;
+    height: 100vh;
+    background-size: cover;
+    z-index: -1;
+    background-size: auto;
+    
+    
+}
+
+                /* my changed css */
+
+.back .overlay{
+    background: #171819;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.mid p{
+    color: #7f8c8d;
+    font-size: 1.3rem;
+    margin-bottom: 1.4rem;
+}
+
+.mid h2{
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.mid .btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.mid .btn a.simple{
+    color: #fff;
+   padding: 0.9rem 1.6rem;
+ 
+}
+
+.navbar-nav li{
+    list-style: none;
+    padding-right: 50px;
+}
+.navbar-nav li a{
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar-nav li a:hover{
+    color: #ff5733;
+    cursor: pointer;
+}
+
+.navbar-nav .icon i:hover{
+    color: #ff5733;
+    cursor: pointer; 
+}
+
+.icon i{
+    color: #fff;
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mid .btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.mid .btn a.simple{
+    color: #fff;
+   padding: 0.9rem 1.6rem;
+ 
+}
+
+.mid .btn a.simple:hover{
+color: #ff5733;
+}
+
+.mid .btn a.border{
+    color: #ff5733;
+    padding: 0.9rem 1.6rem;
+    border: 1px solid #ff5733;
+}
+
+.mid .btn a.border:hover{
+    color: #ff5733;
+    background-color: #fff;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.form{
+    width: 40%;
+    background-color: #e5ebeb;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+.footer{
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont i{
+    color: red;
+}
+
+
+
+@media(max-width:700px){
+    .back{
+        background-size: 400px 300px;
+        background-repeat: no-repeat;
+        z-index: 0;
+      height: 55vh;
+
+    }
+
+    .mid{
+        position: relative;
+        bottom: 200px;
+    }
+
+    .mid p{
+        font-size: 0.9rem;  
+        
+    }
+    .mid h2{
+        font-size: 1.5rem;
+        
+    }
+    
+    .row{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10% !important;
+    }
+    
+   
+    .form{
+        width: 80%;
+        background-color: #e5ebeb;
+        margin-top: 0%;
+        margin-left: 10%;
+    }
+
+   
+    .our{
+        position: relative;
+        bottom: 60px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .navbar-nav li a:hover{
+        color: #ff5733;
+        cursor: pointer;
+    }
+    
+    .navbar-nav .icon i:hover{
+        color: #ff5733;
+        cursor: pointer; 
+    }
+    
+}
